@@ -26,7 +26,7 @@
     "@angular/platform-browser-dynamic": "~13.0.0",
     "@angular/platform-server": "~13.0.0",
     "@angular/router": "~13.0.0",
-    "@nebular/auth": "file:.lib/auth",
+    "@devsaur/nebular-auth": "file:.lib/auth",
     "@nebular/date-fns": "file:.lib/date-fns",
     "@nebular/eva-icons": "file:.lib/eva-icons",
     "@nebular/moment": "file:.lib/moment",

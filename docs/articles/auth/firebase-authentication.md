@@ -1,6 +1,6 @@
 ## Firebase authentication with Nebular Auth
 
-`@nebular/firebase-auth` allows authentication in firebase applications with `@nebular/auth`.
+`@devsaur/nebular-firebase-auth` allows authentication in firebase applications with `@devsaur/nebular-auth`.
 The package provides the following strategies:
 
 - `NbFirebasePasswordStrategy` - authentication with email/password
@@ -9,7 +9,7 @@ The package provides the following strategies:
 - `NbFirebaseFacebookStrategy` - authentication with facebook accounts
 - `NbFirebaseTwitteStrategy` - authentication with twitter accounts
 
-`@nebular/auth` package is sponsored by [GO-ER](https://go-er.com) and [What Now Travel](https://whatnow.travel/).
+`@devsaur/nebular-auth` package is sponsored by [GO-ER](https://go-er.com) and [What Now Travel](https://whatnow.travel/).
 
 ## Installation
 
@@ -25,14 +25,14 @@ The package provides the following strategies:
 Install Nebular Auth and Nebular Firebase Auth.
 
 ```sh
-  npm i @nebular/auth @nebular/firebase-auth
+  npm i @devsaur/nebular-auth @devsaur/nebular-firebase-auth
 ```
 
 Import the NbAuthModule with some firebase strategies, in that example we use NbFirebasePasswordStrategy.
 
 ```ts
-import { NbAuthModule } from '@nebular/auth';
-import { NbFirebasePasswordStrategy } from '@nebular/firebase-auth';
+import { NbAuthModule } from '@devsaur/nebular-auth';
+import { NbFirebasePasswordStrategy } from '@devsaur/nebular-firebase-auth';
 
 
 @NgModule({

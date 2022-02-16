@@ -13,11 +13,11 @@ Nebular modules are distributed as separated `npm` packages:
   - UI Components - high-quality Angular components no 3rd party dependencies.
   - Server-side rendering compatibility.
   - Right-to-left writing system support for all components.
-- Nebular Auth `@nebular/auth`
+- Nebular Auth `@devsaur/nebular-auth`
   - Authentication components (login/register/reset password/restore password).
   - Multiple configurable authentication Strategies (backend connectors).
   - Helpers for token management (storing, passing with HTTP requests, etc).
-- Nebular Auth for Firebase `@nebular/firebase-auth`
+- Nebular Auth for Firebase `@devsaur/nebular-firebase-auth`
   - module for authentication in firebase applications with nebular/auth
 - Nebular Security `@nebular/security`
   - roles and permissions management.

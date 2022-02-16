@@ -19,7 +19,7 @@ import {
   NbOAuth2AuthStrategy,
   NbOAuth2ClientAuthMethod,
   NbOAuth2GrantType,
-} from '@nebular/auth';
+} from '@devsaur/nebular-auth';
 
 import { OAuth2PasswordLoginComponent } from './oauth2-password-login.component';
 import { Oauth2PasswordRoutingModule } from './oauth2-password-routing.module';

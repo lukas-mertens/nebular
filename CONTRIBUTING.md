@@ -115,7 +115,7 @@ That's it! Thank you for your contribution!
   - backend - Small backend example
   - framework - Framework itself, divided into npm packages
     - theme - `@nebular/theme` npm package, main framework package
-    - auth - `@nebular/auth` npm package, auth package (login, register, etc)
+    - auth - `@devsaur/nebular-auth` npm package, auth package (login, register, etc)
     - security - `@nebular/security` npm package, security framework package
 
 ## <a name="rules"></a> Coding Rules

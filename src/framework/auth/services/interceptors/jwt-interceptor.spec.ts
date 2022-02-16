@@ -24,7 +24,7 @@ import {
   nbStrategiesFactory,
   NbAuthJWTToken,
   NbAuthSimpleToken,
-} from '@nebular/auth';
+} from '@devsaur/nebular-auth';
 
 describe('jwt-interceptor', () => {
 

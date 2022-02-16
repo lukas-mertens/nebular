@@ -208,7 +208,7 @@ This change doesn't affect users who use prebuilt Nebular themes. For prebult th
 
 - **theme:** `NbPositionedContainer` renamed to `NbPositionedContainerComponent`.
 
-- **auth:** `~@nebular/auth/styles/all`file removed. Replace `~@nebular/auth/styles/all` imports with `~@nebular/auth/styles/globals`.
+- **auth:** `~@devsaur/nebular-auth/styles/all`file removed. Replace `~@devsaur/nebular-auth/styles/all` imports with `~@devsaur/nebular-auth/styles/globals`.
 
 - **theme:**:
 

@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { Observable, of } from 'rxjs';
 import { catchError, share, take } from 'rxjs/operators';
-import { NbAuthService, NbAuthToken } from '@nebular/auth';
+import { NbAuthService, NbAuthToken } from '@devsaur/nebular-auth';
 
 import { FirebaseAPIService } from '../firebase-api.service';
 

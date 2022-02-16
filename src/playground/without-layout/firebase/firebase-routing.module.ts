@@ -14,7 +14,7 @@ import {
   NbRegisterComponent,
   NbRequestPasswordComponent,
   NbResetPasswordComponent,
-} from '@nebular/auth';
+} from '@devsaur/nebular-auth';
 
 import { FirebasePlaygroundComponent } from './firebase-playground.component';
 import { PasswordAuthShowcaseComponent } from './password-auth-showcase/password-auth-showcase.component';

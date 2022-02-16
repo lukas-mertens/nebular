@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { tap } from 'rxjs/operators';
 import { CanActivate, Router } from '@angular/router';
-import { NbAuthService } from '@nebular/auth';
+import { NbAuthService } from '@devsaur/nebular-auth';
 
 @Injectable()
 export class AuthGuard implements CanActivate {

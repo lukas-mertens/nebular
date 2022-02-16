@@ -18,7 +18,7 @@ import {
   NbAuthModule,
   NbOAuth2AuthStrategy,
   NbOAuth2ResponseType,
-} from '@nebular/auth';
+} from '@devsaur/nebular-auth';
 
 import { OAuth2LoginComponent } from './oauth2-login.component';
 import { OAuth2CallbackComponent } from './oauth2-callback.component';

@@ -97,7 +97,7 @@ import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs/Observable';
 import { map } from 'rxjs/operators/map';
 
-import { NbAuthService, NbAuthJWTToken } from '@nebular/auth';
+import { NbAuthService, NbAuthJWTToken } from '@devsaur/nebular-auth';
 import { NbRoleProvider } from '@nebular/security';
 
 
@@ -121,7 +121,7 @@ import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs/Observable';
 import { map } from 'rxjs/operators/map';
 
-import { NbAuthService, NbAuthJWTToken } from '@nebular/auth';
+import { NbAuthService, NbAuthJWTToken } from '@devsaur/nebular-auth';
 import { NbRoleProvider } from '@nebular/security';
 
 @Injectable()

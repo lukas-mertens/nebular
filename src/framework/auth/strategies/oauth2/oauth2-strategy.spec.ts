@@ -17,7 +17,7 @@ import {
   NbAuthResult,
   nbAuthCreateToken,
   NbAuthOAuth2Token,
-} from '@nebular/auth';
+} from '@devsaur/nebular-auth';
 
 function createURL(params: any) {
   return Object.keys(params)

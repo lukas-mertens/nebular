@@ -18,7 +18,7 @@ import {
   NB_AUTH_FALLBACK_TOKEN,
   NbAuthTokenParceler,
   NB_AUTH_TOKENS,
-} from '@nebular/auth';
+} from '@devsaur/nebular-auth';
 
 const noop = () => {};
 const ownerStrategyName = 'strategy';

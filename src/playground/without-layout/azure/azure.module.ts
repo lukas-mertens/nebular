@@ -14,7 +14,7 @@ import {
   NbLayoutModule,
 } from '@nebular/theme';
 
-import { NbAuthModule } from '@nebular/auth';
+import { NbAuthModule } from '@devsaur/nebular-auth';
 
 import { AzureLoginComponent } from './azure-login.component';
 import { AzureCallbackComponent } from './azure-callback.component';

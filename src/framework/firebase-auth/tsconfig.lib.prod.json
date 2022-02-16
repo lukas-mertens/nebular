@@ -7,7 +7,7 @@
       "@nebular/theme": [
         "dist/theme"
       ],
-      "@nebular/auth": [
+      "@devsaur/nebular-auth": [
         "dist/auth"
       ]
     }

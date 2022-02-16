@@ -15,7 +15,7 @@ import {
   NbAuthJWTToken,
   NB_AUTH_FALLBACK_TOKEN,
   NbAuthTokenParceler,
-} from '@nebular/auth';
+} from '@devsaur/nebular-auth';
 
 describe('token-storage', () => {
 

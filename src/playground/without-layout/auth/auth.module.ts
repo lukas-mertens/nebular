@@ -24,7 +24,7 @@ import {
   NbOAuth2AuthStrategy,
   NbAuthOAuth2Token,
   NB_AUTH_TOKEN_INTERCEPTOR_FILTER,
-} from '@nebular/auth';
+} from '@devsaur/nebular-auth';
 import { NbSecurityModule, NbRoleProvider } from '@nebular/security';
 
 import { AuthPlaygroundComponent } from './auth.component';
