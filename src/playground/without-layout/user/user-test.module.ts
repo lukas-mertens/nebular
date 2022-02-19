@@ -5,7 +5,7 @@
  */
 
 import { NgModule } from '@angular/core';
-import { NbLayoutModule, NbUserModule } from '@nebular/theme';
+import { NbLayoutModule, NbUserModule } from '@devsaur-nebular/theme';
 import { UserTestRoutingModule } from './user-test-routing.module';
 import { UserTestComponent } from './user-test.component';
 

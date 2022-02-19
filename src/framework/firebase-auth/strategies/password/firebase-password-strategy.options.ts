@@ -11,7 +11,7 @@ import {
   NbPasswordStrategyMessage,
   NbPasswordStrategyModule,
   NbStrategyToken,
-} from '@devsaur/nebular-auth';
+} from '@devsaur-nebular/auth';
 
 export class NbFirebasePasswordStrategyOptions extends NbAuthStrategyOptions {
   token?: NbStrategyToken = {

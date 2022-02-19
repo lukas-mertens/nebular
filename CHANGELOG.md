@@ -20,10 +20,10 @@ This change doesn't affect users who use prebuilt Nebular themes. For prebult th
 
 #### API changes
 
-- `@nebular/theme/styles/_components.scss` file removed. Replace imports from this files with:
+- `@devsaur-nebular/theme/styles/_components.scss` file removed. Replace imports from this files with:
   ```
-  @import '@nebular/theme/styles/theming';
-  @import '@nebular/theme/styles/themes';
+  @import '@devsaur-nebular/theme/styles/theming';
+  @import '@devsaur-nebular/theme/styles/themes';
   ```
 - `layout-window-mode-max-width`, `tabset-tab-text-hide-breakpoint`, `route-tabset-tab-text-hide-breakpoint` theme properties removed. [Migration guide](https://github.com/akveo/nebular/pull/2965#issuecomment-984410175).
 - **overlay trigger:** `NbTriggerStrategyBase`'s `isNotOnHostOrContainer`, `isOnHostOrContainer`, `isOnHost`, `isOnContainer` methods now expect `Element` instead of `Event` as the first parameter. Pass `event.target as Element` instead of `event`.
@@ -208,7 +208,7 @@ This change doesn't affect users who use prebuilt Nebular themes. For prebult th
 
 - **theme:** `NbPositionedContainer` renamed to `NbPositionedContainerComponent`.
 
-- **auth:** `~@devsaur/nebular-auth/styles/all`file removed. Replace `~@devsaur/nebular-auth/styles/all` imports with `~@devsaur/nebular-auth/styles/globals`.
+- **auth:** `~@devsaur-nebular/auth/styles/all`file removed. Replace `~@devsaur-nebular/auth/styles/all` imports with `~@devsaur-nebular/auth/styles/globals`.
 
 - **theme:**:
 
@@ -829,10 +829,10 @@ We would appreciate hearing your feedback on the update steps, quality of the gu
 
 - **themes:** - `nb-theme` function now throws an error if an unused variable is accessed
 
-* custom auth variables are removed and replaced with @nebular/theme variables
-* `nb-install` function moved into `@nebular/theme/styles/theming`
+* custom auth variables are removed and replaced with @devsaur-nebular/theme variables
+* `nb-install` function moved into `@devsaur-nebular/theme/styles/theming`
 * auth components now use `nb-icon` instead of icon css class
-* everything not mentioned in packages `public_api.ts` now private so direct imports from `@nebular/theme/*` will stop working.
+* everything not mentioned in packages `public_api.ts` now private so direct imports from `@devsaur-nebular/theme/*` will stop working.
 * [Properties changed in Nebular 4.0.0](https://github.com/akveo/nebular/tree/master/src/framework/theme/350-400-properties-changes.md)
 * [Theme variables change in Nebular 4.0.0](https://github.com/akveo/nebular/tree/master/src/framework/theme/350-400-theme-variables-changes.md)
 * [Components variables changes in Nebular 4.0.0](https://github.com/akveo/nebular/tree/master/src/framework/theme/350-400-component-variables-changes.md)
@@ -844,11 +844,11 @@ Now all Nebular components internally use `<nb-icon></nb-icon>` component utiliz
 There are two ways to upgrade:
 **Migrate to Eva Icons** (recommended):
 
-1. install Eva Icons Nebular package `npm i @nebular/eva-icons`
+1. install Eva Icons Nebular package `npm i @devsaur-nebular/eva-icons`
 2. register `NbEvaIconsModule` in the `app.module.ts`
 
 ```
-import { NbEvaIconsModule } from '@nebular/eva-icons';
+import { NbEvaIconsModule } from '@devsaur-nebular/eva-icons';
 
 @NgModule({
   imports: [
@@ -872,7 +872,7 @@ This option is also possible, but please note, Nebular Component will still use 
 1. Register nebular-icons as a pack for Nebular in your `app.component.ts`
 
 ```
-  import { NbIconLibraries } from '@nebular/theme';
+  import { NbIconLibraries } from '@devsaur-nebular/theme';
 
   constructor(private iconLibraries: NbIconLibraries) {
     this.iconLibraries.registerFontPack('nebular', { iconClassPrefix: 'nb' });
@@ -1193,13 +1193,13 @@ Nebular 2.0 is stable now! After 10 release candidates and a year of work we fin
 
 This release has introduced a number of changes which may required some manual update steps, depending on your setup:
 
-1. In case if you use Nebular overrides of bootstrap styles - you need to manually install new `@nebular/bootstrap` package. To do that:
+1. In case if you use Nebular overrides of bootstrap styles - you need to manually install new `@devsaur-nebular/bootstrap` package. To do that:
 
-- install Nebular Bootstrap `npm i @nebular/bootstrap`
+- install Nebular Bootstrap `npm i @devsaur-nebular/bootstrap`
 - then add it into your `styles.scss`
 
 ```
-@import '~@nebular/bootstrap/styles/globals';
+@import '~@devsaur-nebular/bootstrap/styles/globals';
 // ...
 
 @include nb-install() {
@@ -1208,8 +1208,8 @@ This release has introduced a number of changes which may required some manual u
 }
 ```
 
-- if you import `~@nebular/theme/styles/global/bootstrap/breakpoints` in your code, replace it with `~@nebular/theme/styles/global/breakpoints`
-- if you import `~@nebular/theme/styles/global/bootstrap/*.scss` somewhere in your code, replace it with `~@nebular/bootstrap/styles/*.scss`
+- if you import `~@devsaur-nebular/theme/styles/global/bootstrap/breakpoints` in your code, replace it with `~@devsaur-nebular/theme/styles/global/breakpoints`
+- if you import `~@devsaur-nebular/theme/styles/global/bootstrap/*.scss` somewhere in your code, replace it with `~@devsaur-nebular/bootstrap/styles/*.scss`
 
 2. Nebular 2.0 introduced a new peer dependency - @angular/cdk. A lot of out of the box functionality provided by @angular team gives our components a solid foundation. To do that:
 
@@ -1227,14 +1227,14 @@ Here's a list of other possibly breaking changes that you may need to take into 
   Inject `NbToastrService` into the required component.
   call `NbToastrService.show(...)` to render toasts.
   For more information check [toastr documentation](https://akveo.github.io/nebular/docs/components/toastr).
-- **theme:** All bootstrap override styles were moved from the @nebular/theme package to the new @nebular/bootstrap package. If you don't need bootstrap support you can simply no use this package.
-  @nebular/theme package introduced a dependency of normalize.css. To update:
+- **theme:** All bootstrap override styles were moved from the @devsaur-nebular/theme package to the new @devsaur-nebular/bootstrap package. If you don't need bootstrap support you can simply no use this package.
+  @devsaur-nebular/theme package introduced a dependency of normalize.css. To update:
 
-  - install Nebular Bootstrap `npm i @nebular/bootstrap`
+  - install Nebular Bootstrap `npm i @devsaur-nebular/bootstrap`
   - then add it into your `styles.scss`
 
   ```scss
-  @import '~@nebular/bootstrap/styles/globals';
+  @import '~@devsaur-nebular/bootstrap/styles/globals';
   // ...
 
   @include nb-install() {

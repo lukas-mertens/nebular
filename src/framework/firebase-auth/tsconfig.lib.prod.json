@@ -4,10 +4,10 @@
   "compilerOptions": {
     "declarationMap": false,
     "paths": {
-      "@nebular/theme": [
+      "@devsaur-nebular/theme": [
         "dist/theme"
       ],
-      "@devsaur/nebular-auth": [
+      "@devsaur-nebular/auth": [
         "dist/auth"
       ]
     }

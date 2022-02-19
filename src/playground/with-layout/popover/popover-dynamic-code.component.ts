@@ -6,7 +6,7 @@
 
 import { AfterViewInit, Component, OnDestroy, TemplateRef, ViewChild } from '@angular/core';
 import { PopoverListComponent, PopoverTabsComponent } from './components/dynamic.components';
-import { NbPopoverDirective } from '@nebular/theme';
+import { NbPopoverDirective } from '@devsaur-nebular/theme';
 
 
 @Component({

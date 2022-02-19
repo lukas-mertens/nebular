@@ -1,5 +1,5 @@
 import { Component, HostBinding } from '@angular/core';
-import { NbDuplicateToastBehaviour, NbToastrService } from '@nebular/theme';
+import { NbDuplicateToastBehaviour, NbToastrService } from '@devsaur-nebular/theme';
 
 @Component({
   selector: 'nb-toastr-prevent-duplicates-behaviour',

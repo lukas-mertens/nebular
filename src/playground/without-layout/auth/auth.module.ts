@@ -13,7 +13,7 @@ import {
   NbCardModule,
   NbLayoutModule,
   NbListModule,
-} from '@nebular/theme';
+} from '@devsaur-nebular/theme';
 import {
   NbAuthJWTToken,
   NbAuthModule,
@@ -24,8 +24,8 @@ import {
   NbOAuth2AuthStrategy,
   NbAuthOAuth2Token,
   NB_AUTH_TOKEN_INTERCEPTOR_FILTER,
-} from '@devsaur/nebular-auth';
-import { NbSecurityModule, NbRoleProvider } from '@nebular/security';
+} from '@devsaur-nebular/auth';
+import { NbSecurityModule, NbRoleProvider } from '@devsaur-nebular/security';
 
 import { AuthPlaygroundComponent } from './auth.component';
 import { AuthPlaygroundRoutingModule } from './auth-routing.module';

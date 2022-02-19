@@ -5,7 +5,7 @@
  */
 
 import { NgModule } from '@angular/core';
-import { NbLayoutModule } from '@nebular/theme';
+import { NbLayoutModule } from '@devsaur-nebular/theme';
 import { WithLayoutRoutingModule } from './with-layout-routing.module';
 import { PlaygroundLayoutComponent } from './playground-layout.component';
 

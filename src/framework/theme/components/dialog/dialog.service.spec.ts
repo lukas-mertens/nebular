@@ -9,7 +9,7 @@ import {
   NbDialogModule,
   NbThemeModule,
   NB_DOCUMENT,
-} from '@nebular/theme';
+} from '@devsaur-nebular/theme';
 
 @Injectable()
 export class NbViewportRulerMockAdapter extends NbViewportRulerAdapter {

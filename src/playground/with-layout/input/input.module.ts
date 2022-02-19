@@ -6,7 +6,7 @@
 
 import { NgModule } from '@angular/core';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { NbCardModule, NbInputModule } from '@nebular/theme';
+import { NbCardModule, NbInputModule } from '@devsaur-nebular/theme';
 import { InputRoutingModule } from './input-routing.module';
 import { InputColorsComponent } from './input-colors.component';
 import { InputFullWidthComponent } from './input-full-width.component';

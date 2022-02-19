@@ -11,14 +11,14 @@ First, let's install the module as it's distributed as an npm package. Security 
 
 
 ```bash
-npm i @nebular/security
+npm i @devsaur-nebular/security
 ```
 <hr>   
 
 ## Import the module:
 
 ```ts
-import { NbSecurityModule } from '@nebular/security';
+import { NbSecurityModule } from '@devsaur-nebular/security';
 ```
 <hr>
 

@@ -49,13 +49,13 @@ import { FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
 
 import { NgxAuthRoutingModule } from './auth-routing.module';
-import { NbAuthModule } from '@devsaur/nebular-auth';
+import { NbAuthModule } from '@devsaur-nebular/auth';
 import { 
   NbAlertModule,
   NbButtonModule,
   NbCheckboxModule,
   NbInputModule
-} from '@nebular/theme';
+} from '@devsaur-nebular/theme';
 
 
 @NgModule({
@@ -135,7 +135,7 @@ At the step we just need to add it to the `auth-routing.module.ts`:
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
-import { NbAuthComponent } from '@devsaur/nebular-auth';  // <---
+import { NbAuthComponent } from '@devsaur-nebular/auth';  // <---
 
 export const routes: Routes = [
   {
@@ -170,7 +170,7 @@ For starters, let's create our custom login component inherited from `NbLoginCom
 
 ```ts
 import { Component } from '@angular/core';
-import { NbLoginComponent } from '@devsaur/nebular-auth';
+import { NbLoginComponent } from '@devsaur-nebular/auth';
 
 @Component({
   selector: 'ngx-login',
@@ -193,8 +193,8 @@ import { FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
 
 import { NgxAuthRoutingModule } from './auth-routing.module';
-import { NbAuthModule } from '@devsaur/nebular-auth';
-import { NbAlertModule, NbButtonModule, NbCheckboxModule, NbInputModule } from '@nebular/theme';
+import { NbAuthModule } from '@devsaur-nebular/auth';
+import { NbAlertModule, NbButtonModule, NbCheckboxModule, NbInputModule } from '@devsaur-nebular/theme';
 
 import { NgxLoginComponent } from './login/login.component'; // <---
 
@@ -225,7 +225,7 @@ And update the routing:
 ```ts
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { NbAuthComponent } from '@devsaur/nebular-auth';
+import { NbAuthComponent } from '@devsaur-nebular/auth';
 
 import { NgxLoginComponent } from './login/login.component'; // <---
 

@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { NbTreeGridDataSource, NbTreeGridDataSourceBuilder } from '@nebular/theme';
+import { NbTreeGridDataSource, NbTreeGridDataSourceBuilder } from '@devsaur-nebular/theme';
 
 interface TreeNode<T> {
   data: T;

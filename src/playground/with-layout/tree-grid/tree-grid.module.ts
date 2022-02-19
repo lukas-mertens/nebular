@@ -6,7 +6,7 @@
 
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { NbCardModule, NbIconModule, NbInputModule, NbTreeGridModule } from '@nebular/theme';
+import { NbCardModule, NbIconModule, NbInputModule, NbTreeGridModule } from '@devsaur-nebular/theme';
 
 import { FsIconComponent, TreeGridShowcaseComponent } from './tree-grid-showcase.component';
 import { TreeGridRoutingModule } from './tree-grid-routing.module';

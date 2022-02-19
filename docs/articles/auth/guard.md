@@ -31,7 +31,7 @@ Then, let's import `NbAuthService` and complete the `canActivate` method:
 ```ts
 import { Injectable } from '@angular/core';
 import { CanActivate } from '@angular/router';
-import { NbAuthService } from '@devsaur/nebular-auth';
+import { NbAuthService } from '@devsaur-nebular/auth';
 
 @Injectable()
 export class AuthGuard implements CanActivate {
@@ -104,7 +104,7 @@ Let's modify our guard a bit to reflect this logic:
 ```ts
 import { Injectable } from '@angular/core';
 import { CanActivate, Router } from '@angular/router';
-import { NbAuthService } from '@devsaur/nebular-auth';
+import { NbAuthService } from '@devsaur-nebular/auth';
 import { tap } from 'rxjs/operators';
 
 @Injectable()

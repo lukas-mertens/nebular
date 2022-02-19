@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { Observable, of } from 'rxjs';
 import { catchError, share, take } from 'rxjs/operators';
-import { NbAuthResult, NbAuthService, NbAuthToken } from '@devsaur/nebular-auth';
+import { NbAuthResult, NbAuthService, NbAuthToken } from '@devsaur-nebular/auth';
 
 import { FirebaseAPIService } from '../firebase-api.service';
 

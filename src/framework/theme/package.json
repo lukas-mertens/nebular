@@ -1,7 +1,7 @@
 {
-  "name": "@nebular/theme",
+  "name": "@devsaur-nebular/theme",
   "version": "9.0.1",
-  "description": "@nebular/theme",
+  "description": "@devsaur-nebular/theme",
   "author": "akveo",
   "license": "MIT",
   "repository": {

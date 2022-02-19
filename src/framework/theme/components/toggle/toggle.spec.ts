@@ -9,7 +9,7 @@ import {
   NbLayoutDirection,
   NbToggleModule,
   NbToggleComponent,
-} from '@nebular/theme';
+} from '@devsaur-nebular/theme';
 
 describe('Component: NbToggle', () => {
   let toggle: NbToggleComponent;

@@ -15,7 +15,7 @@ import {
   NbDateService,
   NbNativeDateService,
   NbCalendarKitModule,
-} from '@nebular/theme';
+} from '@devsaur-nebular/theme';
 
 describe('Component: NbCalendarPickerRow', () => {
   let fixture: ComponentFixture<NbCalendarPickerRowComponent<Date, Date>>;

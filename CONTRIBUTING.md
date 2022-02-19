@@ -114,9 +114,9 @@ That's it! Thank you for your contribution!
   - playground - independent module with runnable examples for each feature
   - backend - Small backend example
   - framework - Framework itself, divided into npm packages
-    - theme - `@nebular/theme` npm package, main framework package
-    - auth - `@devsaur/nebular-auth` npm package, auth package (login, register, etc)
-    - security - `@nebular/security` npm package, security framework package
+    - theme - `@devsaur-nebular/theme` npm package, main framework package
+    - auth - `@devsaur-nebular/auth` npm package, auth package (login, register, etc)
+    - security - `@devsaur-nebular/security` npm package, security framework package
 
 ## <a name="rules"></a> Coding Rules
 

@@ -5,7 +5,7 @@
  */
 
 import { NgModule } from '@angular/core';
-import { NbCardModule, NbUserModule } from '@nebular/theme';
+import { NbCardModule, NbUserModule } from '@devsaur-nebular/theme';
 import { UserRoutingModule } from './user-routing.module';
 import { UserShowcaseComponent } from './user-showcase.component';
 import { UserSizesComponent } from './user-sizes.component';

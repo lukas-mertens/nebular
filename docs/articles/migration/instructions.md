@@ -11,7 +11,7 @@ This means that every Nebular version number could be broken down into the *majo
 
 Installation of the minor and patch version in most of the times won't require any developer assistance during the update, though we recommend following these steps for all cases:
 
-1. Update version in your package.json and run `npm i` or simply run `ng update @nebular/theme@4.0.1`, where `4.0.1` is the desired version.
+1. Update version in your package.json and run `npm i` or simply run `ng update @devsaur-nebular/theme@4.0.1`, where `4.0.1` is the desired version.
 
 You may also specify all required Nebular packages during the installation `ng update @nebular/{theme,auth,security}@4.0.1`
 

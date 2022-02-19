@@ -5,7 +5,7 @@
  */
 
 import { Component } from '@angular/core';
-import { NbAccessChecker } from '@nebular/security';
+import { NbAccessChecker } from '@devsaur-nebular/security';
 
 @Component({
   selector: 'nb-actions-test',

@@ -6,7 +6,7 @@
 
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
-import { NbButtonModule, NbCardModule, NbDialogModule, NbInputModule } from '@nebular/theme';
+import { NbButtonModule, NbCardModule, NbDialogModule, NbInputModule } from '@devsaur-nebular/theme';
 import { DialogRoutingModule } from './dialog-routing.module';
 import { DialogAutoFocusComponent } from './dialog-auto-focus.component';
 import { DialogBackdropClickComponent } from './dialog-backdrop-click.component';

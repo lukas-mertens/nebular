@@ -5,7 +5,7 @@ import {
   NbThemeModule,
   NbUserComponent,
   NbUserModule,
-} from '@nebular/theme';
+} from '@devsaur-nebular/theme';
 
 const NAME_SELECTOR = '.user-name';
 const TITLE_SELECTOR = '.user-title';

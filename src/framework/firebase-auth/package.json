@@ -1,7 +1,7 @@
 {
-  "name": "@devsaur/nebular-firebase-auth",
+  "name": "@devsaur-nebular/firebase-auth",
   "version": "9.0.2",
-  "description": "fork of @devsaur/nebular-firebase-auth",
+  "description": "fork of @devsaur-nebular/firebase-auth",
   "author": "akveo",
   "license": "MIT",
   "repository": {
@@ -26,7 +26,7 @@
   ],
   "peerDependencies": {
     "@angular/core": "^13.0.0",
-    "@devsaur/nebular-auth": "9.0.1",
+    "@devsaur-nebular/auth": "9.0.1",
     "rxjs": "^6.5.3 || ^7.4.0",
     "firebase": "^9.4.0",
     "@angular/fire": "^7.2.0"

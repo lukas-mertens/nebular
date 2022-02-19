@@ -5,7 +5,7 @@
  */
 
 import { NgModule } from '@angular/core';
-import { NbCardModule } from '@nebular/theme';
+import { NbCardModule } from '@devsaur-nebular/theme';
 
 import { NgdDocumentationRoutingModule } from './documentation-routing.module';
 import { NgdThemeModule } from '../@theme/theme.module';

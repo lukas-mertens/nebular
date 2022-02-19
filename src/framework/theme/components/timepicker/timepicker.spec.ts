@@ -10,7 +10,7 @@ import {
   NbTimePickerComponent,
   NbThemeModule,
   NB_TIME_PICKER_CONFIG,
-} from '@nebular/theme';
+} from '@devsaur-nebular/theme';
 
 
 describe('NbTimePickerComponent', () => {

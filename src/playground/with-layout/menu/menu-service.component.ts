@@ -5,7 +5,7 @@
  */
 
 import { Component, OnDestroy } from '@angular/core';
-import { NbMenuService } from '@nebular/theme';
+import { NbMenuService } from '@devsaur-nebular/theme';
 import { takeUntil } from 'rxjs/operators';
 import { Subject } from 'rxjs';
 import { MENU_ITEMS } from './menu-service-items';
@@ -43,7 +43,7 @@ export class MenuServiceComponent implements OnDestroy {
 
   addMenuItem() {
     this.menuService.addItems([{
-      title: '@nebular/theme',
+      title: '@devsaur-nebular/theme',
       target: '_blank',
       icon: 'plus-outline',
       url: 'https://github.com/akveo/ngx-admin',

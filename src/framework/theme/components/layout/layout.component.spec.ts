@@ -7,7 +7,7 @@ import {
   NbThemeModule,
   NbLayoutDirectionService,
   NbLayoutDirection,
-} from '@nebular/theme';
+} from '@devsaur-nebular/theme';
 import { By } from '@angular/platform-browser';
 import { RouterTestingModule } from '@angular/router/testing';
 

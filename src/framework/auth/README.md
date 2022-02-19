@@ -1,1 +1,1 @@
-### @devsaur/nebular-auth module, more details https://akveo.github.io/nebular/
+### @devsaur-nebular/auth module, more details https://akveo.github.io/nebular/

@@ -11,7 +11,7 @@ import {
   NbAuthStrategyClass,
   NbAuthResult,
   NbAuthIllegalTokenError,
-} from '@devsaur/nebular-auth';
+} from '@devsaur-nebular/auth';
 
 
 // Create new token for Azure auth so it returns id_token instead of access_token

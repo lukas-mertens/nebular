@@ -5,7 +5,7 @@
  */
 
 import { NgModule } from '@angular/core';
-import { NbCardModule, NbLayoutModule, NbMenuModule, NbSidebarModule } from '@nebular/theme';
+import { NbCardModule, NbLayoutModule, NbMenuModule, NbSidebarModule } from '@devsaur-nebular/theme';
 import { MenuTestRoutingModule } from './menu-test-routing.module';
 import { MenuTestComponent } from './menu-test.component';
 import {

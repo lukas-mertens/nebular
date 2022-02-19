@@ -5,7 +5,7 @@ import {
   NbCalendarDayPickerComponent,
   NbCalendarMonthModelService,
   NbDateService,
-} from '@nebular/theme';
+} from '@devsaur-nebular/theme';
 
 @Component({
   selector: 'nb-calendar-kit-month-cell',

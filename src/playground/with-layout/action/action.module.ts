@@ -6,7 +6,7 @@
 
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
-import { NbActionsModule, NbCardModule, NbLayoutModule, NbUserModule } from '@nebular/theme';
+import { NbActionsModule, NbCardModule, NbLayoutModule, NbUserModule } from '@devsaur-nebular/theme';
 import { ActionRoutingModule } from './action-routing.module';
 import { ActionBadgeComponent } from './action-badge.component';
 import { ActionShowcaseComponent } from './action-showcase.component';

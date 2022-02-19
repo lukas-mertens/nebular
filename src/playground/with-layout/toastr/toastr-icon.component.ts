@@ -1,5 +1,5 @@
 import { Component, HostBinding } from '@angular/core';
-import { NbToastrService, NbIconConfig } from '@nebular/theme';
+import { NbToastrService, NbIconConfig } from '@devsaur-nebular/theme';
 
 @Component({
   selector: 'nb-toastr-icon',

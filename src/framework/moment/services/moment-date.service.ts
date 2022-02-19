@@ -7,7 +7,7 @@
 import { Inject, Injectable, LOCALE_ID } from '@angular/core';
 import { TranslationWidth } from '@angular/common';
 
-import { NbDateService } from '@nebular/theme';
+import { NbDateService } from '@devsaur-nebular/theme';
 
 import * as _moment from 'moment';
 // @ts-ignore

@@ -5,7 +5,7 @@
  */
 
 import { ChangeDetectionStrategy, Component } from '@angular/core';
-import { NbIconConfig } from '@nebular/theme';
+import { NbIconConfig } from '@devsaur-nebular/theme';
 
 @Component({
   selector: 'nb-tabset-icon',

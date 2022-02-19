@@ -2,7 +2,7 @@ import { Component, ViewChildren, ElementRef, QueryList, OnInit, Inject, PLATFOR
 import { isPlatformBrowser } from '@angular/common';
 import { ActivatedRoute, Router } from '@angular/router';
 import { take, filter, map } from 'rxjs/operators';
-import { NbListItemComponent, NbLayoutScrollService, NB_WINDOW } from '@nebular/theme';
+import { NbListItemComponent, NbLayoutScrollService, NB_WINDOW } from '@devsaur-nebular/theme';
 import { NewsService } from './news.service';
 
 @Component({

@@ -17,7 +17,7 @@ import {
   NbPopoverComponent,
   NbPopoverModule,
   NbOverlayConfig,
-} from '@nebular/theme';
+} from '@devsaur-nebular/theme';
 
 @Component({
   selector: 'nb-popover-component-content-test',

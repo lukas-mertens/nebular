@@ -13,7 +13,7 @@ import {
   NbIconModule,
   NbInputModule,
   NbTagModule,
-} from '@nebular/theme';
+} from '@devsaur-nebular/theme';
 
 import { TagRoutingModule } from './tag-routing.module';
 import { TagShowcaseComponent } from './tag-showcase.component';

@@ -2,7 +2,7 @@ import { Directive, ElementRef, Inject, Input, OnDestroy, OnInit, PLATFORM_ID, R
 import { ActivatedRoute, Router } from '@angular/router';
 import { timer, Subject } from 'rxjs';
 import { takeUntil, publish, refCount, filter, tap, debounce } from 'rxjs/operators';
-import { NB_WINDOW, NbLayoutScrollService } from '@nebular/theme';
+import { NB_WINDOW, NbLayoutScrollService } from '@devsaur-nebular/theme';
 import { NgdVisibilityService } from '../../../@theme/services';
 
 const OBSERVER_OPTIONS = { rootMargin: '-100px 0px 0px' };

@@ -5,7 +5,7 @@
  */
 
 import { Component } from '@angular/core';
-import { NbDateService } from '@nebular/theme';
+import { NbDateService } from '@devsaur-nebular/theme';
 
 @Component({
   selector: 'nb-calendar-min-max',

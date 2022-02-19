@@ -28,7 +28,7 @@ import {
   NbTokenStorage,
   NB_AUTH_FALLBACK_TOKEN,
   NbAuthTokenParceler,
-} from '@devsaur/nebular-auth';
+} from '@devsaur-nebular/auth';
 
 describe('auth-service', () => {
   let authService: NbAuthService;

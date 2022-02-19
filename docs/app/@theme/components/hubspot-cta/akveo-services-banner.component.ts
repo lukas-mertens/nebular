@@ -1,5 +1,5 @@
 import { Component, ElementRef, Inject, Input, OnInit, ViewChild } from '@angular/core';
-import { NB_DOCUMENT, NB_WINDOW } from '@nebular/theme';
+import { NB_DOCUMENT, NB_WINDOW } from '@devsaur-nebular/theme';
 
 @Component({
   selector: 'ngd-akveo-services-banner',

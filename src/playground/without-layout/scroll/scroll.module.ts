@@ -5,7 +5,7 @@
  */
 
 import { NgModule } from '@angular/core';
-import { NbCardModule, NbLayoutModule } from '@nebular/theme';
+import { NbCardModule, NbLayoutModule } from '@devsaur-nebular/theme';
 import { ScrollRoutingModule } from './scroll-routing.module';
 import { ScrollWindowComponent } from './scroll-window.component';
 

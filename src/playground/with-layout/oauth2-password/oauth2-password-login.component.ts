@@ -13,7 +13,7 @@ import {
   nbAuthCreateToken,
   NbAuthJWTToken,
   NbAuthOAuth2Token,
-} from '@devsaur/nebular-auth';
+} from '@devsaur-nebular/auth';
 import { getDeepFromObject } from '../../../framework/auth/helpers';
 
 @Component({

@@ -9,8 +9,8 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 
 import { AuthRoutingModule } from './auth-routing.module';
-import { NbAuthModule } from '@devsaur/nebular-auth';
-import { NbAlertModule, NbButtonModule, NbCheckboxModule, NbInputModule } from '@nebular/theme';
+import { NbAuthModule } from '@devsaur-nebular/auth';
+import { NbAlertModule, NbButtonModule, NbCheckboxModule, NbInputModule } from '@devsaur-nebular/theme';
 
 import { LoginComponent } from './login/login.component';
 

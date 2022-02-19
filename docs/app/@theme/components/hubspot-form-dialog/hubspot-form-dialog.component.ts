@@ -5,7 +5,7 @@
  */
 
 import { AfterViewInit, ChangeDetectorRef, Component, ElementRef, Inject, OnInit, ViewChild } from '@angular/core';
-import { NB_WINDOW, NbDialogRef } from '@nebular/theme';
+import { NB_WINDOW, NbDialogRef } from '@devsaur-nebular/theme';
 
 let formContainerUniqueId = 0;
 

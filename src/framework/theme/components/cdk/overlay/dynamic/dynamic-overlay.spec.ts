@@ -9,7 +9,7 @@ import {
   NbComponentPortal,
   NbOverlayConfig,
   NbOverlayContainer,
-} from '@nebular/theme';
+} from '@devsaur-nebular/theme';
 
 @Component({ template: '' })
 export class NbDynamicOverlayMockComponent implements NbRenderableContainer {

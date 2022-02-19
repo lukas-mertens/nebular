@@ -65,9 +65,9 @@ function registerNebularModules(options: Schema): Rule {
     const project = await getProject(tree, options.project);
     const nebularThemeModule = `NbThemeModule.forRoot({ name: '${options.theme}' })`;
 
-    addModuleImportToRootModule(tree, nebularThemeModule, '@nebular/theme', project);
-    addModuleImportToRootModule(tree, 'NbLayoutModule', '@nebular/theme', project);
-    addModuleImportToRootModule(tree, 'NbEvaIconsModule', '@nebular/eva-icons', project);
+    addModuleImportToRootModule(tree, nebularThemeModule, '@devsaur-nebular/theme', project);
+    addModuleImportToRootModule(tree, 'NbLayoutModule', '@devsaur-nebular/theme', project);
+    addModuleImportToRootModule(tree, 'NbEvaIconsModule', '@devsaur-nebular/eva-icons', project);
   }
 }
 

@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { NbDialogRef } from '@nebular/theme';
+import { NbDialogRef } from '@devsaur-nebular/theme';
 
 @Component({
   selector: 'nb-name-prompt',

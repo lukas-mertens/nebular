@@ -4,7 +4,7 @@
   "compilerOptions": {
     "declarationMap": false,
     "paths": {
-      "@nebular/theme": [
+      "@devsaur-nebular/theme": [
         "dist/theme"
       ]
     }

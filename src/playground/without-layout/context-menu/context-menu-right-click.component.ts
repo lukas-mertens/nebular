@@ -5,7 +5,7 @@
  */
 
 import {Component, HostListener, ViewChild} from '@angular/core';
-import { NbContextMenuDirective } from '@nebular/theme';
+import { NbContextMenuDirective } from '@devsaur-nebular/theme';
 
 
 @Component({

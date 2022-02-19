@@ -6,7 +6,7 @@
 
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { NbAlertComponent, NbAlertModule, NbThemeModule } from '@nebular/theme';
+import { NbAlertComponent, NbAlertModule, NbThemeModule } from '@devsaur-nebular/theme';
 
 describe('Component: NbAlert', () => {
 

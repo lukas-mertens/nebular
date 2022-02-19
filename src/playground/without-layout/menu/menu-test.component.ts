@@ -7,7 +7,7 @@
 import { Component, OnInit, OnDestroy } from '@angular/core';
 import { takeUntil } from 'rxjs/operators';
 import { Subject } from 'rxjs';
-import { NbMenuService, NbMenuItem } from '@nebular/theme';
+import { NbMenuService, NbMenuItem } from '@devsaur-nebular/theme';
 
 @Component({
   selector: 'nb-menu-test',
@@ -88,7 +88,7 @@ export class MenuTestComponent implements OnInit, OnDestroy {
               home: true,
             },
             {
-              title: '@nebular/theme',
+              title: '@devsaur-nebular/theme',
               target: '_blank',
               url: 'https://github.com/akveo/ng2-admin',
             },
@@ -213,7 +213,7 @@ export class MenuTestComponent implements OnInit, OnDestroy {
                   home: true,
                 },
                 {
-                  title: '@nebular/theme',
+                  title: '@devsaur-nebular/theme',
                   target: '_blank',
                   url: 'https://github.com/akveo/ng2-admin',
                 },

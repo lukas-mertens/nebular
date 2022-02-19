@@ -1,1 +1,1 @@
-### @nebular/date-fns module, more details https://akveo.github.io/nebular/
+### @devsaur-nebular/date-fns module, more details https://akveo.github.io/nebular/

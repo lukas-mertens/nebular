@@ -5,7 +5,7 @@
  */
 
 import { ChangeDetectionStrategy, Component } from '@angular/core';
-import { NbTagComponent } from '@nebular/theme';
+import { NbTagComponent } from '@devsaur-nebular/theme';
 
 import { trees } from './trees-list';
 

@@ -13,7 +13,7 @@ First, let's install the module as it's distributed as npm package. Make sure yo
 Nebular Theme is required to use built-in Auth Components. If you are not going to use those at all, you can use `Auth Module` without the `Nebular Theme` module.
 
 ```bash
-npm i @devsaur/nebular-auth
+npm i @devsaur-nebular/auth
 ```
 
 <hr>
@@ -41,7 +41,7 @@ export class AppModule {
 Import the module and `NbPasswordAuthStrategy` strategy:
 
 ```ts
-import { NbPasswordAuthStrategy, NbAuthModule } from '@devsaur/nebular-auth';
+import { NbPasswordAuthStrategy, NbAuthModule } from '@devsaur-nebular/auth';
 ```
 
 <hr>
@@ -86,7 +86,7 @@ import {
   NbLogoutComponent,
   NbRequestPasswordComponent,
   NbResetPasswordComponent,
-} from '@devsaur/nebular-auth';
+} from '@devsaur-nebular/auth';
 
 export const routes: Routes = [
   // ...
@@ -132,7 +132,7 @@ Last but not least - install the component styles into your styles.scss ([more d
 
 ```scss
 // ...
-@use '@devsaur/nebular-auth/styles/globals' as *;
+@use '@devsaur-nebular/auth/styles/globals' as *;
 
 @include nb-install() {
   @include nb-theme-global();

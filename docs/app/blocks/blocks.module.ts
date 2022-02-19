@@ -7,7 +7,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { CommonModule } from '@angular/common';
-import { NbInputModule, NbSpinnerModule } from '@nebular/theme';
+import { NbInputModule, NbSpinnerModule } from '@devsaur-nebular/theme';
 
 import { NgdThemeModule } from '../@theme/theme.module';
 

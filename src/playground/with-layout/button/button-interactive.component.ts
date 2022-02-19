@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { NbButtonAppearance, NbComponentStatus, NbComponentShape, NbComponentSize } from '@nebular/theme';
+import { NbButtonAppearance, NbComponentStatus, NbComponentShape, NbComponentSize } from '@devsaur-nebular/theme';
 
 @Component({
   templateUrl: 'button-interactive.component.html',

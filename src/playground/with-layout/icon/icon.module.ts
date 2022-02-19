@@ -6,7 +6,7 @@
 
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { NbIconModule, NbButtonModule, NbCardModule } from '@nebular/theme';
+import { NbIconModule, NbButtonModule, NbCardModule } from '@devsaur-nebular/theme';
 
 import { IconRoutingModule } from './icon-routing.module';
 import { IconShowcaseComponent } from './icon-showcase.component';

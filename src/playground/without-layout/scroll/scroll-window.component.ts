@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { NbLayoutScrollService, NbLayoutRulerService } from '@nebular/theme';
+import { NbLayoutScrollService, NbLayoutRulerService } from '@devsaur-nebular/theme';
 
 enum LayoutMode {
   WINDOW = 'window',

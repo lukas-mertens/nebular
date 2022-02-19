@@ -1,6 +1,6 @@
 import { Component, ViewChild } from '@angular/core';
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-import { NbTagComponent, NbTagModule, NbThemeModule } from '@nebular/theme';
+import { NbTagComponent, NbTagModule, NbThemeModule } from '@devsaur-nebular/theme';
 import createSpy = jasmine.createSpy;
 
 @Component({

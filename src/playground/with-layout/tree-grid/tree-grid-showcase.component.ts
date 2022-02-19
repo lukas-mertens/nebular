@@ -5,7 +5,7 @@
  */
 
 import { Component, Input } from '@angular/core';
-import { NbSortDirection, NbSortRequest, NbTreeGridDataSource, NbTreeGridDataSourceBuilder } from '@nebular/theme';
+import { NbSortDirection, NbSortRequest, NbTreeGridDataSource, NbTreeGridDataSourceBuilder } from '@devsaur-nebular/theme';
 
 interface TreeNode<T> {
   data: T;

@@ -1,6 +1,6 @@
 import { Component, NgModule, OnInit, ViewChild } from '@angular/core';
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-import { NbComponentPortal, NbOverlayContainerComponent, NbOverlayModule } from '@nebular/theme';
+import { NbComponentPortal, NbOverlayContainerComponent, NbOverlayModule } from '@devsaur-nebular/theme';
 
 @Component({
   template: `

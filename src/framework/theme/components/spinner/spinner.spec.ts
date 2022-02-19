@@ -6,7 +6,7 @@
 
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { NbThemeModule, NbSpinnerModule, NbSpinnerComponent } from '@nebular/theme';
+import { NbThemeModule, NbSpinnerModule, NbSpinnerComponent } from '@devsaur-nebular/theme';
 
 describe('Component: NbSpinner', () => {
 

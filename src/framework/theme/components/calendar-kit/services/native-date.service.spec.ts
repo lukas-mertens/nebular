@@ -7,7 +7,7 @@
 import { TestBed } from '@angular/core/testing';
 import { LOCALE_ID } from '@angular/core';
 
-import { NbNativeDateService, NbDateService, NbDayPeriod } from '@nebular/theme';
+import { NbNativeDateService, NbDateService, NbDayPeriod } from '@devsaur-nebular/theme';
 
 describe('native-date-service', () => {
   let dateService: NbDateService<Date>;

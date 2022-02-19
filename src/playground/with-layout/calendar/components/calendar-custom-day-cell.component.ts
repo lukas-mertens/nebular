@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { NbCalendarDayCellComponent } from '@nebular/theme';
+import { NbCalendarDayCellComponent } from '@devsaur-nebular/theme';
 
 @Component({
   selector: 'nb-calendar-custom-day-cell',

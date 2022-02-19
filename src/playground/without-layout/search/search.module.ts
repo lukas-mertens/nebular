@@ -5,7 +5,7 @@
  */
 
 import { NgModule } from '@angular/core';
-import { NbCardModule, NbLayoutModule, NbSearchModule, NbSidebarModule } from '@nebular/theme';
+import { NbCardModule, NbLayoutModule, NbSearchModule, NbSidebarModule } from '@devsaur-nebular/theme';
 import { SearchRoutingModule } from './search-routing.module';
 import { SearchCustomizedTestComponent } from './search-customized-test.component';
 import { SearchEventComponent } from './search-event.component';

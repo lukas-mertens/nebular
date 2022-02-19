@@ -13,7 +13,7 @@ import {
   NbDateService,
   NbNativeDateService,
   NbThemeModule,
-} from '@nebular/theme';
+} from '@devsaur-nebular/theme';
 
 describe('Component: NbCalendarPageableNavigation', () => {
   let fixture: ComponentFixture<NbCalendarPageableNavigationComponent<Date>>;

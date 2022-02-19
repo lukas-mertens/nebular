@@ -3,7 +3,7 @@ import { Component, DebugElement } from '@angular/core';
 import { By } from '@angular/platform-browser';
 import { ReactiveFormsModule, FormControl } from '@angular/forms';
 
-import { NbIconModule, NbCheckboxModule, NbCheckboxComponent, NbThemeModule } from '@nebular/theme';
+import { NbIconModule, NbCheckboxModule, NbCheckboxComponent, NbThemeModule } from '@devsaur-nebular/theme';
 
 describe('Component: NbCheckbox', () => {
 

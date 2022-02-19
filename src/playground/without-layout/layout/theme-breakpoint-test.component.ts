@@ -6,7 +6,7 @@
 
 import { Component } from '@angular/core';
 
-import { NbThemeService } from '@nebular/theme';
+import { NbThemeService } from '@devsaur-nebular/theme';
 
 @Component({
   selector: 'nb-breakpoint-test',

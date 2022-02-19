@@ -6,7 +6,7 @@
 
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
-import { NbButtonModule, NbCardModule, NbCheckboxModule } from '@nebular/theme';
+import { NbButtonModule, NbCardModule, NbCheckboxModule } from '@devsaur-nebular/theme';
 import { CheckboxRoutingModule } from './checkbox-routing.module';
 import { CheckboxDisabledComponent } from './checkbox-disabled.component';
 import { CheckboxShowcaseComponent } from './checkbox-showcase.component';

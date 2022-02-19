@@ -3,7 +3,7 @@ import { Component, QueryList, ViewChild, ViewChildren } from '@angular/core';
 import { ComponentFixture, fakeAsync, TestBed, tick } from '@angular/core/testing';
 import { ActivatedRoute, Params } from '@angular/router';
 import { RouterTestingModule } from '@angular/router/testing';
-import { NbTabComponent, NbTabsetComponent, NbTabsetModule } from '@nebular/theme';
+import { NbTabComponent, NbTabsetComponent, NbTabsetModule } from '@devsaur-nebular/theme';
 import { BehaviorSubject } from 'rxjs';
 import createSpy = jasmine.createSpy;
 

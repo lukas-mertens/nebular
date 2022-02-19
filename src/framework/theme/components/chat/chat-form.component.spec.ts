@@ -1,5 +1,5 @@
 import { ComponentFixture, fakeAsync, TestBed, tick } from '@angular/core/testing';
-import { NbChatFormComponent, NbChatModule, NbThemeModule } from '@nebular/theme';
+import { NbChatFormComponent, NbChatModule, NbThemeModule } from '@devsaur-nebular/theme';
 import createSpy = jasmine.createSpy;
 
 describe('NbChatFormComponent', () => {

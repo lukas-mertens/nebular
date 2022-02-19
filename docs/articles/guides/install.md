@@ -36,7 +36,7 @@ ng new my-new-project
 Nebular supports init configuration with Angular Schematics. This means you can simply add it to your project, and Angular Schematics will do the rest:
 
 ```bash
-ng add @nebular/theme
+ng add @devsaur-nebular/theme
 ```
 
 That's it. Nebular is ready now.
@@ -52,16 +52,16 @@ At this step, we assume you already have an Angular application created.
 ### Install Nebular modules
 
 ```bash
-npm install --save @nebular/theme @angular/cdk @angular/animations
+npm install --save @devsaur-nebular/theme @angular/cdk @angular/animations
 ```
 
 Also, you may want to install Eva Icons pack, which is a recommended SVG icons library starting from Nebular 4.0:
 ```bash
-npm install --save eva-icons @nebular/eva-icons
+npm install --save eva-icons @devsaur-nebular/eva-icons
 ```
 More details on [how to use Nebular Eva Icons are here](docs/components/icon/overview#nbiconcomponent). 
 
-Additionally, you can install Auth and Security `npm install --save @devsaur/nebular-auth @nebular/security`
+Additionally, you can install Auth and Security `npm install --save @devsaur-nebular/auth @devsaur-nebular/security`
 
 ### Configure Nebular
 
@@ -69,7 +69,7 @@ At this stage you have everything in place, let's configure Nebular in the app m
 
 ```ts
 
-import { NbThemeModule } from '@nebular/theme';
+import { NbThemeModule } from '@devsaur-nebular/theme';
 
 ...
 
@@ -92,7 +92,7 @@ Include default Nebular theme CSS file into your `angular.json` file:
 
 ```scss
 "styles": [
-  "node_modules/@nebular/theme/styles/prebuilt/default.css", // or dark.css
+  "node_modules/@devsaur-nebular/theme/styles/prebuilt/default.css", // or dark.css
 ],
 ```
 

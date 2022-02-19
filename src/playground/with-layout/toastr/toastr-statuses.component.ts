@@ -1,5 +1,5 @@
 import { Component, HostBinding } from '@angular/core';
-import { NbToastrService, NbComponentStatus } from '@nebular/theme';
+import { NbToastrService, NbComponentStatus } from '@devsaur-nebular/theme';
 
 @Component({
   selector: 'nb-toastr-statuses',

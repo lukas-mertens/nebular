@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-import { NbChatModule, NbThemeModule } from '@nebular/theme';
+import { NbChatModule, NbThemeModule } from '@devsaur-nebular/theme';
 
 @Component({
   selector: 'nb-chat-message-quote-test',

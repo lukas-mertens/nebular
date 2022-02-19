@@ -5,7 +5,7 @@ We suppose that you have a separate module per page, let's open your `some-page.
 
 ```ts
 import { RouterModule } from '@angular/router'; // we also need angular router for Nebular to function properly
-import { NbSidebarModule, NbLayoutModule, NbButtonModule } from '@nebular/theme';
+import { NbSidebarModule, NbLayoutModule, NbButtonModule } from '@devsaur-nebular/theme';
 
 ...
 

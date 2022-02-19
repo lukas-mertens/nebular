@@ -5,7 +5,7 @@
  */
 
 import { Component, ViewChild } from '@angular/core';
-import { NbPopoverDirective } from '@nebular/theme';
+import { NbPopoverDirective } from '@devsaur-nebular/theme';
 
 @Component({
   selector: 'nb-popover-noop',

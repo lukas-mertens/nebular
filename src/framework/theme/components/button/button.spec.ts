@@ -6,7 +6,7 @@
 
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { NbThemeModule, NbButtonModule, NbButtonComponent } from '@nebular/theme';
+import { NbThemeModule, NbButtonModule, NbButtonComponent } from '@devsaur-nebular/theme';
 
 describe('Component: NbButton', () => {
 

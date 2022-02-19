@@ -5,7 +5,7 @@
  */
 
 import { NgModule } from '@angular/core';
-import { NbActionsModule, NbCardModule, NbLayoutModule, NbSidebarModule } from '@nebular/theme';
+import { NbActionsModule, NbCardModule, NbLayoutModule, NbSidebarModule } from '@devsaur-nebular/theme';
 import { LayoutRoutingModule } from './layout-routing.module';
 import { LayoutColumnLeftComponent } from './layout-column-left.component';
 import { LayoutFixedHeaderComponent } from './layout-fixed-header.component';

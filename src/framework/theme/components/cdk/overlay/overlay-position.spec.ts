@@ -15,7 +15,7 @@ import {
   NbAdjustment,
   NbViewportRulerAdapter,
   NbLayoutDirectionService,
-} from '@nebular/theme';
+} from '@devsaur-nebular/theme';
 
 @Injectable()
 export class MockViewportRulerAdapter extends NbViewportRulerAdapter {

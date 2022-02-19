@@ -22,9 +22,9 @@ import {
   NbInputModule,
   NbDialogModule,
   NbSpinnerModule,
-} from '@nebular/theme';
+} from '@devsaur-nebular/theme';
 
-import { NbEvaIconsModule } from '@nebular/eva-icons';
+import { NbEvaIconsModule } from '@devsaur-nebular/eva-icons';
 
 import {
   NgdHeaderComponent,

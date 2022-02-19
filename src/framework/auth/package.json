@@ -1,7 +1,7 @@
 {
-  "name": "@devsaur/nebular-auth",
+  "name": "@devsaur-nebular/auth",
   "version": "9.0.2",
-  "description": "fork of @devsaur/nebular-auth",
+  "description": "fork of @devsaur-nebular/auth",
   "author": "akveo",
   "license": "MIT",
   "repository": {
@@ -28,7 +28,7 @@
     "@angular/core": "^13.0.0",
     "@angular/router": "^13.0.0",
     "@angular/forms": "^13.0.0",
-    "@nebular/theme": "9.0.1",
+    "@devsaur-nebular/theme": "9.0.1",
     "rxjs": "^6.5.3 || ^7.4.0"
   },
   "dependencies": {

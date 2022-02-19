@@ -5,7 +5,7 @@
  */
 
 import { ChangeDetectionStrategy, Component } from '@angular/core';
-import { NbMenuItem } from '@nebular/theme';
+import { NbMenuItem } from '@devsaur-nebular/theme';
 
 @Component({
   selector: 'nb-menu-badge',

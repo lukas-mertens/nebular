@@ -18,7 +18,7 @@ import {
   NbOverlayService,
   NbOverlayConfig,
   NbOverlayRef,
-} from '@nebular/theme';
+} from '@devsaur-nebular/theme';
 
 const TEST_GROUPS = [
   {
